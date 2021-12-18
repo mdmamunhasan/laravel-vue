@@ -21,6 +21,18 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+Install composer ubuntu
+
+    sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+
+Create new laravel project
+
+    composer create-project laravel/laravel example-app
+
+Run the project 
+
+    php artisan serve
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
